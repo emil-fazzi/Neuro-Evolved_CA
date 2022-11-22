@@ -1,0 +1,19 @@
+# ---- neural network parameters ---- #
+
+# possible values: FFNN, ELMAN, JORDAN
+networkType = FFNN
+# possible values: SIGMOID, TANH, CLIPPED_LINEAR, CLIPPED_LINEAR_01
+activationFunction = CLIPPED_LINEAR
+nrHiddenNodes = 3
+
+nrInputs = 12
+
+minInput = -1
+maxInput = 1
+geneMin = -3
+geneMax = 3
+
+
+
+# DON'T EDIT THIS LINE #
+# ---- obstacles ---- #
